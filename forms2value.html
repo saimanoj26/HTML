@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html values</title>
+	<style type="text/css">
+		div{
+			background-color: green;
+			padding: 10px;
+			border-radius: 10px;
+			width: 400px;
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+
+	<!--here we read" value rowsand cols readonly disabled "-->
+
+	<!--value-->
+	 <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" value="sai">--value
+	  	</form>
+	  </div>
+
+	  <!--readonly--->
+	   <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" value="sai" readonly="on">--readonly
+	  	</form>
+	  </div>
+
+	  <!---disable--->
+	  <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" value="sai" readonly="on" disabled="on">--disabled
+	  	</form>
+	  </div>
+
+	  <!---size for box--->
+	  <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" size="25">--size
+	  	</form>
+	  </div>
+
+	  <!---rows and col--->
+	  <div>
+	  	<form>
+	  		<label>message</label>
+	  		<textarea rows="5" cols="5"></textarea>
+	  	</form>
+	  </div>
+
+	  <h3>html5 form attributes</h3>
+	  
+	  <!---required-->
+	  <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" required>
+	  		<input type="submit" value="submit">--requird
+	  	</form>
+	  </div>
+
+	  <!--no validate-->
+	  <div>
+	  	<form novalidate="true">
+	  		<label>enter an email</label>
+	  		<input type="email">
+	  		<input type="submit" name="submit">--novalidate
+	  	</form>
+	  </div>
+
+	  <!---autofocus-->
+	  <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" autofocus="true">
+	  		<input type="submit" name="submit">--autofocus
+	  	</form>
+	  </div>
+
+	  <!---pattern-->
+	   <div>
+	  	<form>
+	  		<label>username</label>
+	  		<input type="text" pattern="([1-9])+(?:-?\d){4,}">
+	  		<input type="submit" name="submit">--pattren
+	  	</form>
+	  </div>
+
+
+	  <!--placeholder-->
+	  <div>
+	  	<form>
+	  		<input type="text" name="email" placeholder="enter your name">
+	  		<input type="submit">-placeholder
+	  	</form>
+	  </div>
+
+</body>
+</html>
